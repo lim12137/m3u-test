@@ -10,6 +10,7 @@ import netifaces
  # 获取系统中所有网卡信息
 interfaces = netifaces.interfaces()
  # 遍历所有网卡并输出网卡名称
+ 
 for interface in interfaces:
 
     print(interface)
