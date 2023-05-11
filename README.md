@@ -14,3 +14,5 @@ interfaces = netifaces.interfaces()
 for interface in interfaces:
 
     print(interface)
+    
+  感谢 m3u-tester(https://github.com/chaichunyang/m3u-tester)) 为本项目提供了基础功能。
