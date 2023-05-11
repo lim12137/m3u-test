@@ -15,6 +15,7 @@ for interface in interfaces:
     print(interface)
     
   感谢 m3u-tester(https://github.com/chaichunyang/m3u-tester)) 为本项目提供了基础功能。
+  
   脚本会检查当前目录下的.m3u文件，并测试所有检测到的视频流资源的网络连接速度
 
 python3 m3u-tester.py
