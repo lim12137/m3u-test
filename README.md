@@ -12,4 +12,5 @@ interfaces = netifaces.interfaces()
  # 遍历所有网卡并输出网卡名称
  
 for interface in interfaces:
+
     print(interface)
