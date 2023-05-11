@@ -25,7 +25,11 @@ python3 m3u-tester.py
 测试完成后，会在当前目录生成result目录，写入以下文件：
 
 result.json，所有测试的结果，包括extinf，url，speed
+
 useful.m3u，速度大于200KB/sec
+
 good.m3u，速度大于500KB/sec
+
 wonderful.m3u，速度大于700KB/sec
+
 excellent.m3u，速度大于1MB/sec
