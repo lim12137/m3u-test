@@ -4,6 +4,8 @@
 增加了网卡速度检测，超过一定值线程暂停
 网卡名称需要修改
 以下是获得网卡名称方法
+
+
 import netifaces
  # 获取系统中所有网卡信息
 interfaces = netifaces.interfaces()
